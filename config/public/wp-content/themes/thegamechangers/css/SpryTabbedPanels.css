@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+	outline:none;
+	width:820px;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 320px;
+	position: relative;
+	outline:none;
+	padding:20px 0;
+}
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-bottom:1px solid #fff;
+	cursor:pointer;
+	padding:0 20px;
+	line-height:25px;
+	min-height:25px;
+	background-image:url(../images/submenubg-2.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	outline:none;
+	width:253px;
+	margin:0;
+	margin-left:13px;
+	padding-left:12px;
+}
+
+.VTabbedPanels .TabbedPanelsTab#extralong {
+	padding-right:0;
+	width:273px;
+}
+
+.VTabbedPanels .TabbedPanelsTabHover {
+	background-image:url(../images/submenubg-2.png);
+	background-position:-12px -25px;
+	background-repeat:no-repeat;
+	color:#000;
+}
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-image:url(../images/submenubg-2.png);
+	background-position:0 -50px;
+	background-repeat:no-repeat;
+	color:#fff;
+	font-weight:bold;
+	padding-right:10px;
+	width:285px;
+	margin-left:0px;
+	padding-left:25px;
+	border-bottom-style:none;
+}
+
+.VTabbedPanels .TabbedPanelsTabSelected#extralong {
+	padding-right:0px;
+	width:295px;
+	font-weight:normal;
+}
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding:20px;
+	padding-right:30px;
+	width: 450px;
+	height:300px;
+	background-image:url(../images/programlevels.jpg);
+	background-position:40px bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+}
+
+.about-us .VTabbedPanels {
+	padding-right:0;
+	width:980px;
+}
+
+.about-us .VTabbedPanels .TabbedPanelsContentGroup {
+	height:auto;
+	width:610px;
+	background-image:none;
+}
+
+.VTabbedPanels .TabbedPanelsContent img {
+	float:left;
+	margin-right:25px;
+	margin-bottom:15px;
+	width:80px;
+}
+
+.performance-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon1b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+.service-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon2b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+.leadership-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon3b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+.sales-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon4b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+.exp-learning-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon6b.jpg);
+	background-position:810px bottom;
+	background-repeat:no-repeat;
+}
+
+.career-competencies-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon7b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+.life-skills-suite .VTabbedPanels {
+	width:820px;
+	padding-right:160px;
+	background-image:url(../images/icon8b.jpg);
+	background-position:850px bottom;
+	background-repeat:no-repeat;
+}
+
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}
