@@ -33,6 +33,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri(); ?>/images/favicon.ico' />
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
