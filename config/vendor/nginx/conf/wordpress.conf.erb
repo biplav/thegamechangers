@@ -166,6 +166,10 @@ location / {
     # }
 }
 
+if ($http_user_agent ~ "Windows 95|Windows 98|biz360.com|xpymep|TurnitinBot|sindice|Purebot|libwww-perl")  {                                                       
+  return 403;                             
+  break;                                                                                                                                                            }
+
 
 	
 }
