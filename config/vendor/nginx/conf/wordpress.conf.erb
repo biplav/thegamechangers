@@ -103,6 +103,7 @@ server {
     fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_script_name;
   }
   rewrite ^/sitemap_index\.xml$ /index.php?sitemap=1 last;
+rewrite ^/sitemap\.xml$ /index.php?sitemap=1 last;
   rewrite ^/([^/]+?)-sitemap([0-9]+)?\.xml$ /index.php?sitemap=$1&sitemap_n=$2 last;
 
 #W3 TOTAL CACHE CHECK 
