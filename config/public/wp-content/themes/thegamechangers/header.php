@@ -138,6 +138,8 @@
 
 		});
 	</script>
+	<?php wp_head(); ?>
+	</head>
 <body <?php body_class(); ?>>
 <!--[if lte IE 7]>
     
