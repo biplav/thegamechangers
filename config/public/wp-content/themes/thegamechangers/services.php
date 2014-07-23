@@ -35,7 +35,7 @@
                 </div>
             </li>
             <li>
-            	<div class="/360-consulting-suite/" id="suite5">
+            	<div class="suite-slide suite-slide-right" id="suite5">
                 	<a href="/360-consulting-suite/">
                     	<h3><strong>The 360<sup style="font-size:10px; line-height:10px;">°</sup> Consulting Suite</strong><br>
                         Strategy. Processes. People. Outcomes.</h3>

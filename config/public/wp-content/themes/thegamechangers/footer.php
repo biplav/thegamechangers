@@ -66,7 +66,7 @@
             <h2>About GameChangers</h2>
             <p>GameChangers is India's first and only fully integrated and diversified people development enterprise offering end-to-end learning and development services that ignite and improve individual and organizational performance significantly within a tangible, measurable and context-specific framework.</p>
             <p>Our value proposition is building people capability and eco-sytems that enable sustained excellence.</p>
-            <p align="right"><a href="about-us.php?panel=value-proposition">More</a></p>
+            <p align="right"><a href="/about-us/?panel=value-proposition">More</a></p>
         </div>
         <div class="footer-middle">
             <h2>Subverting Paradigms. Enabling Excellence.</h2>
