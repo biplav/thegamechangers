@@ -36,7 +36,7 @@
             </li>
             <li>
             	<div class="/360-consulting-suite/" id="suite5">
-                	<a href="the-360-degree-consulting-suite.html">
+                	<a href="/360-consulting-suite/">
                     	<h3><strong>The 360<sup style="font-size:10px; line-height:10px;">°</sup> Consulting Suite</strong><br>
                         Strategy. Processes. People. Outcomes.</h3>
                         <p>Distance brings perspective and makes an objective – as against a purely subjective – understanding and stakeholder validation of all probable issues possible.</p>
