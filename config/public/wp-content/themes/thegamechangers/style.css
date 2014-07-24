@@ -1402,3 +1402,7 @@ header, section, footer, aside, article, figure {
 	h1 { font-size: 18pt; } 
 	h2 { font-size: 16pt; color: #000; }
 }
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+ 
+}
