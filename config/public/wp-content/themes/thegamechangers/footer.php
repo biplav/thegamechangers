@@ -155,7 +155,7 @@ Pearson Learning<br>
 								if (y < 1000) y += 1900;
 								return y;
 							}
-						</script>2014
+						</script>
                      GameChangers. All rights reserved.</p>
                 </td>
                 <td width="490" align="right">
