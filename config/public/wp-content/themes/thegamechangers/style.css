@@ -1404,5 +1404,7 @@ header, section, footer, aside, article, figure {
 }
 
 @media screen and (min-width: 480px) and (max-width: 960px) {
- 
+ 	#header {
+        
+    }
 }
