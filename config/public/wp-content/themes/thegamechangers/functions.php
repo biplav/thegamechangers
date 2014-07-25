@@ -69,4 +69,10 @@ add_filter('the_content', 'newtexturize');
 
 remove_filter('the_content', 'convert_chars');
 add_filter('the_content', 'new_convert_chars');
+
+function custom_excerpt_length( $length ) {
+	return 100;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>
+

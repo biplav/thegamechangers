@@ -21,6 +21,17 @@ get_header(); ?>
 	if ( is_front_page() || is_home() ) {
 		// Include the featured content template.
 		get_template_part( 'featured-content' );
+	} else if ( have_posts() ) { ?>
+		<div class="banner life-skills-suite">
+			<div class="bannerinner">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/banner-life-skills-suite.jpg"/>
+        		<h1><strong>Blog</strong></h1>
+    		</div>
+	</div>
+	<?php while ( have_posts() ) { 
+				the_post();
+					get_template_part( 'content', get_post_format() );
+				}
 	}
 ?>
 </div><!-- #main-content -->
