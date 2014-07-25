@@ -1408,3 +1408,15 @@ header, section, footer, aside, article, figure {
         
     }
 }
+
+header.entry-header {
+	height:auto;
+}
+.entry-content,
+.entry-summary {
+	width:980px;
+	margin: 0px auto;
+	position: relative;
+	background: white;
+	height: auto;
+}
