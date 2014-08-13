@@ -157,6 +157,7 @@ Pearson Learning<br>
 							}
 						</script>
                      GameChangers. All rights reserved.</p>
+                     <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fgamechangerscommunity&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=675100755882401" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
                 </td>
                 <td width="490" align="right">
                 	<p><a href="http://www.bakbak.io" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/bakbak.png" height="15"></a></p>
