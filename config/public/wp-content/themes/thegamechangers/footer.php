@@ -2,45 +2,28 @@
 	get_template_part( 'services' );
 }?>
 <section class="clients">
-  	<div class="marquee0" id="mycrawler2" style="overflow: hidden;"><div style="visibility: visible; padding: 0px; width: 960px; height: 100px; margin: 0px; position: relative; overflow: hidden;"><div style="position: absolute; left: -2340px; white-space: nowrap; top: -3px;">&nbsp;<div class="client" id="client16"></div>
-    	<div class="client" id="client2"></div>
-    	<div class="client" id="client12"></div>
-    	<div class="client" id="client17"></div>
-    	<div class="client" id="client8"></div>
-    	<div class="client" id="client7"></div>
-    	<div class="client" id="client11"></div>
-    	<div class="client" id="client19"></div>
-    	<div class="client" id="client5"></div>
-    	<div class="client" id="client1"></div>
-    	<div class="client" id="client3"></div>
-    	<div class="client" id="client20"></div>
-    	<div class="client" id="client13"></div>
-    	<div class="client" id="client9"></div>
-    	<div class="client" id="client4"></div>
-    	<div class="client" id="client14"></div>
-    	<div class="client" id="client10"></div>
-    	<div class="client" id="client18"></div>
-    	<div class="client" id="client15"></div>
-    	<div class="client" id="client6"></div></div><div style="position: absolute; left: 1660px; white-space: nowrap; top: -3px;">&nbsp;<div class="client" id="client16"></div>
-    	<div class="client" id="client2"></div>
-    	<div class="client" id="client12"></div>
-    	<div class="client" id="client17"></div>
-    	<div class="client" id="client8"></div>
-    	<div class="client" id="client7"></div>
-    	<div class="client" id="client11"></div>
-    	<div class="client" id="client19"></div>
-    	<div class="client" id="client5"></div>
-    	<div class="client" id="client1"></div>
-    	<div class="client" id="client3"></div>
-    	<div class="client" id="client20"></div>
-    	<div class="client" id="client13"></div>
-    	<div class="client" id="client9"></div>
-    	<div class="client" id="client4"></div>
-    	<div class="client" id="client14"></div>
-    	<div class="client" id="client10"></div>
-    	<div class="client" id="client18"></div>
-    	<div class="client" id="client15"></div>
-    	<div class="client" id="client6"></div></div></div></div>
+	<div class="marquee" id="mycrawler2">
+        <div class="client" id="client1"></div>
+        <div class="client" id="client2"></div>
+        <div class="client" id="client3"></div>
+        <div class="client" id="client4"></div>
+        <div class="client" id="client5"></div>
+        <div class="client" id="client6"></div>
+        <div class="client" id="client7"></div>
+        <div class="client" id="client8"></div>
+        <div class="client" id="client9"></div>
+        <div class="client" id="client10"></div>
+        <div class="client" id="client11"></div>
+        <div class="client" id="client12"></div>
+        <div class="client" id="client13"></div>
+        <div class="client" id="client14"></div>
+        <div class="client" id="client15"></div>
+        <div class="client" id="client16"></div>
+        <div class="client" id="client17"></div>
+        <div class="client" id="client18"></div>
+        <div class="client" id="client19"></div>
+        <div class="client" id="client20"></div>
+    </div>
     <script type="text/javascript">
 		marqueeInit({
 			uniqueid: 'mycrawler2',
