@@ -15,7 +15,7 @@ body {
 	color: #333;
 	font-size:12px;
 	line-height:150%;
-	background-image:url(../images/pagebg.jpg);
+	background-image:url(images/pagebg.jpg);
 	background-position:0 0;
 	background-repeat:repeat;
 }
@@ -74,83 +74,84 @@ header {
 	margin-left:20px;
 }
 
-#nav {
+.nav {
 	padding-left:339px;
 	padding-top:23px;
 }
 
-#nav li {
+.nav li {
 	float:left;
 	height:30px;
 	width:90px;
 	margin-right:5px;
 }
 
-#nav li.tendlink {
+.nav li.tendlink {
 	float:left;
 	height:30px;
 	width:160px;
 	margin-right:5px;
 }
 
-#nav li:hover, #nav li.sfhover {
-	background-image:url(../images/menubg-66.png);
+.nav li:hover, .nav li.sfhover {
+	background-image:url(images/menubg-66.png);
 	background-position:0 0;
 	background-repeat:no-repeat;
 }
 
-#nav li.current a {
-	background-image:url(../images/menubg.png);
+.nav li.current a {
+	background-image:url(images/menubg.png);
 	background-position:0 -60px;
 	background-repeat:no-repeat;
 }
 
-#nav li a {
+.nav li a {
 	display:block;
 	padding:0;
 	width:90px;
 	height:30px;
 	line-height:30px;
 	text-decoration:none;
-	background-image:url(../images/menubg.png);
+	background-image:url(images/menubg.png);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 	text-align:center;
 }
 
-#nav li.tendlink a {
+.nav li.tendlink a {
 	width:160px;
 }
 
-#nav li a:hover {
+.nav li a:hover {
 	background-position:0 0px;
 }
 
-#nav li.tendlink a:hover {
+.nav li.tendlink a:hover {
 	background-position:0 -60px;
 }
 
-#nav li.current a {
+.nav li.current a {
 	background-position:0 -30px;
 	color:#fff;
 	font-weight:bold;
 }
 
-#nav li.tendlink.current a {
+.nav li.tendlink.current a {
 	background-position:0 -90px;
 	color:#fff;
 	font-weight:bold;
 }
 
-#nav li ul {
+.nav li ul {
 	position:absolute;
 	left:-99999em;
 }
 
-#nav li:hover a, #nav li.sfhover a {
+.nav li:hover a, .nav li.sfhover a {
 }
 
-#nav li:hover ul, #nav li.sfhover ul {
+.nav li:hover ul, .nav li.sfhover ul,
+.sub-menu {
 	left:auto;
 	width:280px;
 	padding:0;
@@ -158,23 +159,25 @@ header {
 	list-style:none;
 	z-index:9999999999;
 	padding-top:20px;
-	background-image:url(../images/dropmenubg.png);
+	background-image:url(images/dropmenubg.png);
 	background-position:0 5px;
 	background-repeat:no-repeat;
 }
 
-#nav li ul li {
+.nav li ul li {
 	width:280px;
 }
 
-#nav li ul li.last {
-	background-image:url(../images/dropmenubg.png);
+.sub-menu li.last,
+.nav li ul li.last,
+.sub-menu li:last-of-type {
+	background-image:url(images/dropmenubg.png);
 	background-position:0 bottom;
 	background-repeat:no-repeat;
 	padding-bottom:10px;
 }
 
-#nav li ul li a, #nav li.current ul li a {
+.nav li ul li a, .nav li.current ul li a {
 	width:260px;
 	text-align:left;
 	padding:0 10px;
@@ -184,7 +187,7 @@ header {
 	font-weight:normal;
 }
 
-#nav li ul li a:hover {
+.nav li ul li a:hover {
 	background:#f6f6f6;
 }
 
@@ -238,12 +241,13 @@ header {
 	margin:0;
 	margin-left:-490px;
 	z-index:9;
-	background-image:url(../images/slidercontentbg-52.png);
+	background-image:url(images/slidercontentbg-52.png);
 	background-position:0 0;
 	background-repeat:repeat;
 }
 
-#slides li.slide div.slideinner h2 {
+#slides li.slide div.slideinner h2,
+#slides li.slide div.slideinner h1 {
 	font-size:23px;
 	line-height:34px;
 	color:#fff;
@@ -263,7 +267,7 @@ header {
 }
 
 #slides li.slide#slide2, #slides li.slide#slide5 {
-	background-image:url(../images/banner2bg.jpg);
+	background-image:url(images/banner2bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
@@ -273,7 +277,7 @@ header {
 }
 
 #slides li.slide#slide6, #slides li.slide#slide3 {
-	background-image:url(../images/banner6bg.jpg);
+	background-image:url(images/banner6bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
@@ -294,7 +298,7 @@ header {
 	cursor:pointer;
 	height:18px;
 	width:18px;
-	background-image:url(../images/slidernav.png);
+	background-image:url(images/slidernav.png);
 	background-position:0 0;
 	background-repeat:no-repeat;
 	margin-right:10px;
@@ -332,7 +336,7 @@ header {
 	top:100px;
 	left:13px;
 	z-index:10;
-	background-image:url(../images/slidercontentbg.png);
+	background-image:url(images/slidercontentbg.png);
 	background-position:0 0;
 	background-repeat:repeat;
 	width:380px;
@@ -352,43 +356,43 @@ header {
 }
 
 .banner.performance-suite {
-	background-image:url(../images/banner-performance-suite-bg.jpg);
+	background-image:url(images/banner-performance-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat;
 }
 
 .banner.service-suite {
-	background-image:url(../images/banner-service-suite-bg.jpg);
+	background-image:url(images/banner-service-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .banner.leadership-suite {
-	background-image:url(../images/banner-leadership-suite-bg.jpg);
+	background-image:url(images/banner-leadership-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .banner.sales-suite, .banner.consulting-suite, .banner.life-skills-suite, .banner.ten-d-framework, .banner.careers {
-	background-image:url(../images/banner2bg.jpg);
+	background-image:url(images/banner2bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .banner.career-competencies-suite {
-	background-image:url(../images/banner-career-competencies-suite-bg.jpg);
+	background-image:url(images/banner-career-competencies-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat;
 }
 
 .banner.exp-learning-suite {
-	background-image:url(../images/banner-exp-learning-suite-bg.jpg);
+	background-image:url(images/banner-exp-learning-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .banner.about-us {
-	background-image:url(../images/banner-about-us.jpg);
+	background-image:url(images/banner-about-us.jpg);
 	background-position:0 0;
 	background-repeat:repeat;
 }
@@ -401,43 +405,43 @@ header {
 }
 
 .pagecontent.performance-suite {
-	background-image:url(../images/banner-performance-suite-bg.jpg);
+	background-image:url(images/banner-performance-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.service-suite {
-	background-image:url(../images/banner-service-suite-bg.jpg);
+	background-image:url(images/banner-service-suite-bg.jpg);
 	background-position:0 -59px;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.leadership-suite {
-	background-image:url(../images/banner-leadership-suite-bg.jpg);
+	background-image:url(images/banner-leadership-suite-bg.jpg);
 	background-position:0 -200px;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.sales-suite, .pagecontent.consulting-suite, .pagecontent.life-skills-suite, .pagecontent.ten-d-framework, .pagecontent.careers {
-	background-image:url(../images/banner2bg.jpg);
+	background-image:url(images/banner2bg.jpg);
 	background-position:0 -200px;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.exp-learning-suite {
-	background-image:url(../images/banner-exp-learning-suite-bg.jpg);
+	background-image:url(images/banner-exp-learning-suite-bg.jpg);
 	background-position:0 -200px;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.career-competencies-suite {
-	background-image:url(../images/banner-career-competencies-suite-bg.jpg);
+	background-image:url(images/banner-career-competencies-suite-bg.jpg);
 	background-position:0 0;
 	background-repeat:repeat-x;
 }
 
 .pagecontent.about-us {
-	background-image:url(../images/banner-about-us-bg.jpg);
+	background-image:url(images/banner-about-us-bg.jpg);
 	background-position:0 -59px;
 	background-repeat:repeat-x;
 }
@@ -445,7 +449,7 @@ header {
 .pagecontentinner {
 	width:980px;
 	margin:0 auto;
-	background-image:url(../images/sidebarbg2.png);
+	background-image:url(images/sidebarbg2.png);
 	background-position:0 0;
 	background-repeat:repeat-y;
 }
@@ -463,7 +467,7 @@ header {
 
 .pagecontentinner ul li {
 	padding:5px 20px 5px 45px;
-	background-image:url(../images/bullet1.jpg);
+	background-image:url(images/bullet1.jpg);
 	background-position:20px 11px;
 	background-repeat:no-repeat;
 }
@@ -482,7 +486,7 @@ header {
 .consulting-suite .actualcontent {
 	width:480px;
 	padding-right:160px;
-	background-image:url(../images/icon5b.jpg);
+	background-image:url(images/icon5b.jpg);
 	background-position:490px bottom;
 	background-repeat:no-repeat;
 }
@@ -497,7 +501,7 @@ header {
 
 .lifeskills-display {
 	width:967px;
-	background-image:url(../images/lifeskills-display.jpg);
+	background-image:url(images/lifeskills-display.jpg);
 	background-position:0 0;
 	background-repeat:no-repeat;
 	padding-top:335px;
@@ -505,7 +509,7 @@ header {
 
 .lifeskills-display-inner {
 	width:967px;
-	background-image:url(../images/lifeskills-display-inner1.jpg);
+	background-image:url(images/lifeskills-display-inner1.jpg);
 	background-position:0 0;
 	background-repeat:repeat-y;
 	padding-bottom:20px;
@@ -618,7 +622,7 @@ header {
 }
 
 .services-list .suite-slide#suite1 a {
-	background-image:url(../images/icon1.jpg);
+	background-image:url(images/icon1.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -628,7 +632,7 @@ header {
 }
 
 .services-list .suite-slide#suite2 a {
-	background-image:url(../images/icon2.jpg);
+	background-image:url(images/icon2.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -638,7 +642,7 @@ header {
 }
 
 .services-list .suite-slide#suite3 a {
-	background-image:url(../images/icon3.jpg);
+	background-image:url(images/icon3.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -648,7 +652,7 @@ header {
 }
 
 .services-list .suite-slide#suite4 a {
-	background-image:url(../images/icon4.jpg);
+	background-image:url(images/icon4.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -658,7 +662,7 @@ header {
 }
 
 .services-list .suite-slide#suite5 a {
-	background-image:url(../images/icon5.jpg);
+	background-image:url(images/icon5.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -668,7 +672,7 @@ header {
 }
 
 .services-list .suite-slide#suite6 a {
-	background-image:url(../images/icon6.jpg);
+	background-image:url(images/icon6.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -678,7 +682,7 @@ header {
 }
 
 .services-list .suite-slide#suite7 a {
-	background-image:url(../images/icon7.jpg);
+	background-image:url(images/icon7.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -688,7 +692,7 @@ header {
 }
 
 .services-list .suite-slide#suite8 a {
-	background-image:url(../images/icon8.jpg);
+	background-image:url(images/icon8.jpg);
 	background-position:-15px -150px;
 	background-repeat:no-repeat;
 }
@@ -796,7 +800,7 @@ textarea {
 
 input.submitbutton {
 	background:none;
-	background-image:url(../images/menubg.png);
+	background-image:url(images/menubg.png);
 	background-position:0 0;
 	background-repeat:no-repeat;
 	width:90px;
@@ -917,7 +921,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite1 a {
-	background-image:url(../images/icon1.jpg);
+	background-image:url(images/icon1.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -927,7 +931,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite2 a {
-	background-image:url(../images/icon2.jpg);
+	background-image:url(images/icon2.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -937,7 +941,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite3 a {
-	background-image:url(../images/icon3.jpg);
+	background-image:url(images/icon3.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -947,7 +951,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite4 a {
-	background-image:url(../images/icon4.jpg);
+	background-image:url(images/icon4.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -957,7 +961,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite5 a {
-	background-image:url(../images/icon5.jpg);
+	background-image:url(images/icon5.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -967,7 +971,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite6 a {
-	background-image:url(../images/icon6.jpg);
+	background-image:url(images/icon6.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -977,7 +981,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite7 a {
-	background-image:url(../images/icon7.jpg);
+	background-image:url(images/icon7.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -987,7 +991,7 @@ body.services #suites {
 }
 
 #suites .suite-slide#suite8 a {
-	background-image:url(../images/icon8.jpg);
+	background-image:url(images/icon8.jpg);
 	background-position:0 -150px;
 	background-repeat:no-repeat;
 }
@@ -1033,7 +1037,7 @@ body.services #suites {
 	cursor:pointer;
 	height:18px;
 	width:18px;
-	background-image:url(../images/slidernav2.png);
+	background-image:url(images/slidernav2.png);
 	background-position:0 0;
 	background-repeat:no-repeat;
 	margin-right:10px;
@@ -1108,83 +1112,83 @@ body.services #suites {
 }
 
 .clients div.client#client1 {
-	background-image:url(../images/accenture-logo.jpg);
+	background-image:url(images/accenture-logo.jpg);
 }
 
 .clients div.client#client2 {
-	background-image:url(../images/airtel-logo.jpg);
+	background-image:url(images/airtel-logo.jpg);
 }
 
 .clients div.client#client3 {
-	background-image:url(../images/aviva-logo.jpg);
+	background-image:url(images/aviva-logo.jpg);
 }
 
 .clients div.client#client4 {
-	background-image:url(../images/bnp-paribas-logo.jpg);
+	background-image:url(images/bnp-paribas-logo.jpg);
 }
 
 .clients div.client#client5 {
-	background-image:url(../images/cadbury-logo.jpg);
+	background-image:url(images/cadbury-logo.jpg);
 }
 
 .clients div.client#client6 {
-	background-image:url(../images/godrej-logo.jpg);
+	background-image:url(images/godrej-logo.jpg);
 }
 
 .clients div.client#client7 {
-	background-image:url(../images/gsk-logo.jpg);
+	background-image:url(images/gsk-logo.jpg);
 }
 
 .clients div.client#client8 {
-	background-image:url(../images/hsbc-logo.jpg);
+	background-image:url(images/hsbc-logo.jpg);
 }
 
 .clients div.client#client9 {
-	background-image:url(../images/ibm-logo.jpg);
+	background-image:url(images/ibm-logo.jpg);
 }
 
 .clients div.client#client10 {
-	background-image:url(../images/integra-logo.jpg);
+	background-image:url(images/integra-logo.jpg);
 }
 
 .clients div.client#client11 {
-	background-image:url(../images/itc-logo.jpg);
+	background-image:url(images/itc-logo.jpg);
 }
 
 .clients div.client#client12 {
-	background-image:url(../images/juniper-logo.jpg);
+	background-image:url(images/juniper-logo.jpg);
 }
 
 .clients div.client#client13 {
-	background-image:url(../images/kotak-logo.jpg);
+	background-image:url(images/kotak-logo.jpg);
 }
 
 .clients div.client#client14 {
-	background-image:url(../images/max-life-logo.jpg);
+	background-image:url(images/max-life-logo.jpg);
 }
 
 .clients div.client#client15 {
-	background-image:url(../images/mckinsey-logo.jpg);
+	background-image:url(images/mckinsey-logo.jpg);
 }
 
 .clients div.client#client16 {
-	background-image:url(../images/oberoi-logo.jpg);
+	background-image:url(images/oberoi-logo.jpg);
 }
 
 .clients div.client#client17 {
-	background-image:url(../images/pearson-logo.jpg);
+	background-image:url(images/pearson-logo.jpg);
 }
 
 .clients div.client#client18 {
-	background-image:url(../images/unilever-logo.jpg);
+	background-image:url(images/unilever-logo.jpg);
 }
 
 .clients div.client#client19 {
-	background-image:url(../images/wipro-logo.jpg);
+	background-image:url(images/wipro-logo.jpg);
 }
 
 .clients div.client#client20 {
-	background-image:url(../images/world-bank-logo.jpg);
+	background-image:url(images/world-bank-logo.jpg);
 }
 
 footer {
@@ -1223,7 +1227,7 @@ footer ul li {
 .footerinner {
 	width:980px;
 	margin:0 auto;
-	background-image:url(../images/footerbg.jpg);
+	background-image:url(images/footerbg.jpg);
 	background-position:right bottom;
 	background-repeat:no-repeat;
 	padding-bottom:20px;
@@ -1388,4 +1392,31 @@ header, section, footer, aside, article, figure {
 #marq_kill_marg_bord {
 	border:none !important;
 	margin:0 !important;
+}
+
+@media print { 
+	/* your print styles go here */
+	#header, #footer, #menu { display: none; } 
+
+	body { font: 12pt georgia,serif; } 
+	h1 { font-size: 18pt; } 
+	h2 { font-size: 16pt; color: #000; }
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+ 	#header {
+        
+    }
+}
+
+header.entry-header {
+	height:auto;
+}
+.entry-content,
+.entry-summary {
+	width:980px;
+	margin: 0px auto;
+	position: relative;
+	background: white;
+	height: auto;
 }

@@ -290,7 +290,7 @@ header {
 	margin-left:-470px;
 	list-style:none;
 	height:17px;
-	z-index:9999;
+	z-index:999;
 }
 
 .pagination li {
